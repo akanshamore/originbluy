@@ -11,9 +11,9 @@ import { useSession } from '@/ctx';
 export default function RegisterScreen() {
 
 
-  const [email, setEmail] = useState('sid@gmail.com');
-  const [password, setPassword] = useState('React@2024');
-  const [confirmPassword, setConfirmPassword] = useState('React@2024');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const [loading, setLoading] = useState(false);
@@ -87,6 +87,7 @@ export default function RegisterScreen() {
             keyboardType="email-address"
             value={email}
             onChangeText={setEmail}
+            autoCapitalize='none'
           />
           <TextInput
             style={styles.input}
