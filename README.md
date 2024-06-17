@@ -1,4 +1,4 @@
-# OpenBluy - _Media Capture and Session_
+# OpenBluy - _Media Capture and Storage Mobile Application_
 
 ## Features
 
