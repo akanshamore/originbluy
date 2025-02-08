@@ -77,7 +77,9 @@ export function SessionProvider(props: React.PropsWithChildren) {
                             },
                             body: JSON.stringify({ email, password })
                         })
-                        const result = await response.json()
+                        const result = await response.json();
+
+                        console.log('result',result)
                         if (result.error) {
                             throw new Error(result.error)
                         }

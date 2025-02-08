@@ -13,7 +13,6 @@ const app = express();
 connectDB();
 
 app.use(bodyParser.json());
-app.use('/uploads', express.static('uploads'));
 
 app.use('/api/auth', authRoutes);
 app.use('/api/media', mediaRoutes);
