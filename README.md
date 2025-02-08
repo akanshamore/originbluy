@@ -1,4 +1,4 @@
-# OpenBluy - _Media Capture and Storage Mobile Application_
+# OriginBluy - _Media Capture and Storage Mobile Application_
 
 ## Features
 
